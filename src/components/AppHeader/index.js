@@ -1,5 +1,5 @@
 import React from 'react';
-import sjLogo from '../../assets/sj.svg';
+import sjLogo from '../../assets/sj.png';
 import './index.css';
 
 // AppHeader renders the site logo and title
