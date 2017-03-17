@@ -6,38 +6,27 @@ import twitterIcon from '../../assets/social-twitter.png';
 
 // ContactIcons renders contact link icons
 function ContactIcons() {
-  const contactIconObjects = {
-    gh: {
-      key: 'gitHubIcon',
-      link: 'https://github.com/sjackson212'
-    },
-    li: {
-      key: 'linkedInIcon',
-      link: 'https://www.linkedin.com/in/samuel-jackson-4a0a42107'
-    },
-    tw: {
-      key: 'twitterIcon',
-      link: 'https://twitter.com/stonedwallz'
-    }
-  };
+  const ghLink='https://github.com/sjackson212';
+  const liLink='https://www.linkedin.com/in/samuel-jackson-4a0a42107';
+  const twLink='https://twitter.com/stonedwallz';
 
   return (
     <div className="contact-icons-container">
-      <a href={contactIconObjects.gh.link}>
+      <a href={ghLink} target="_blank">
         <img
           className="contact-icon-image"
           src={gitHubIcon}
           alt=''
         />
       </a>
-      <a href={contactIconObjects.li.link}>
+      <a href={liLink} target="_blank">
         <img
           className="contact-icon-image"
           src={liIcon}
           alt=''
         />
       </a>
-      <a href={contactIconObjects.tw.link}>
+      <a href={twLink} target="_blank">
         <img
           className="contact-icon-image"
           src={twitterIcon}

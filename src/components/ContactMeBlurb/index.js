@@ -10,6 +10,7 @@ function ContactMeBlurb() {
     <a
       className="resume-link"
       href={resumeLink}
+      target="_blank"
     >
       Click here for my resume
     </a>
