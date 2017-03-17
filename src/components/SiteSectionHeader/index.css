@@ -1,0 +1,11 @@
+.site-section-header-container {
+  margin-bottom: 15px;
+}
+
+.site-section-header-content {
+  font-family: AvenirNext-Medium;
+  font-size: 24px;
+  color: #2B2B2B;
+  line-height: 34px;
+  font-weight: 100;
+}

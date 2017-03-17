@@ -1,0 +1,16 @@
+.app-logo {
+  margin-top: 15px;
+  height: 55px;
+}
+
+.app-header {
+  height: 150px;
+  padding: 20px;
+}
+
+.app-title {
+  font-family: AvenirNext-Medium;
+  font-size: 40px;
+  color: #2A2A2A;
+  font-weight: 100;
+}

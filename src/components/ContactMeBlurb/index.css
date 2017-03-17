@@ -1,0 +1,17 @@
+.contact-me-blurb-container {
+  font-family: AvenirNext-Regular;
+  font-size: 18px;
+  line-height: 22px;
+  width: 380px;
+}
+
+.contact-me-blurb-content {
+  color: rgba(80, 80, 80, 0.88);
+  display: inline;
+}
+
+.resume-link {
+  color: #DE5842;
+  display: inline;
+  text-decoration: none;
+}
